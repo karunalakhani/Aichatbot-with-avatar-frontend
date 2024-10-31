@@ -1,5 +1,5 @@
 export const sendMessageToChatbot = async (message: string): Promise<string> => {
-    const response = await fetch('https://aichatbot-with-avatar.onrender.com/chat', {
+    const response = await fetch('https://aichatbot-with-avatar-backend.onrender.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
